@@ -6,6 +6,6 @@
 	"version": "0.0.1",
 	"author": "Alex Mourtziapis",
 	"engines": {
-		"brackets": ">=1.5.0"
+		"brackets": ">=0.24.0"
 	}
 }
