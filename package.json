@@ -1,0 +1,11 @@
+{
+	"name": "brackets-glsl",
+	"title": "Brackets GLSL",
+	"homepage": "https://github.com/Mourtz/brackets-glsl",
+	"description": "Provides GLSL syntax highlight for Brackets.",
+	"version": "0.0.1",
+	"author": "Alex Mourtziapis",
+	"engines": {
+		"brackets": ">=1.5.0"
+	}
+}
