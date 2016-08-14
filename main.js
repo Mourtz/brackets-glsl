@@ -195,10 +195,11 @@ define(function (require, exports, module) {
 	var _builtins = "radians degrees sin cos tan asin acos atan pow " +
 		"exp log exp2 log2 sqrt inversesqrt abs sign floor ceil fract mod " +
 		"min max clamp mix step smoothstep length distance dot cross " +
-		"normalize faceforward reflect refract matrixCompMult lessThan " +
+		"normalize faceforward reflect refract lessThan " +
+		"matrixCompMult outerProduct transpose determinant inverse "+
 		"lessThanEqual greaterThan greaterThanEqual equal notEqual any all " +
 		"not dFdx dFdy fwidth texture2D texture2DProj texture2DLod " +
-		"texture2DProjLod textureCube textureCubeLod";
+		"textureSize texture textureProj textureLod textureOffset texelFetch texelFetchOffset textureLodOffset textureProjLod textureProjLodOffset textureGrad textureGradOffset textureProjGrad textureProjGradOffset textureProjOffset texture2DProjLod textureCube textureCubeLod";
 
 	CodeMirror.defineMIME("text/x-glsl", {
 		name: "glsl",
