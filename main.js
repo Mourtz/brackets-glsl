@@ -215,7 +215,7 @@ define(function (require, exports, module) {
 	LanguageManager.defineLanguage("glsl", {
 		name: "GLSL",
 		mode: ["glsl", "text/x-glsl"],
-		fileExtensions: ["glsl"],
+		fileExtensions: ["glsl","vert","tesc","tese","geom","frag","comp"],
 		blockComment: ["/*", "*/"],
 		lineComment: ["//", "//"]
 	});
