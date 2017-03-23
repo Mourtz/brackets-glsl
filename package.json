@@ -3,7 +3,7 @@
 	"title": "Brackets GLSL",
 	"homepage": "https://github.com/Mourtz/brackets-glsl",
 	"description": "Provides GLSL syntax highlight for Brackets.",
-	"version": "0.0.2",
+	"version": "0.0.3",
 	"author": "Alex Mourtziapis",
 	"engines": {
 		"brackets": ">=0.24.0"
